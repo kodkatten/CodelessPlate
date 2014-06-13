@@ -1,0 +1,25 @@
+{
+  "name": "CodelessPlate",
+  "knowabungaDisplayName" "Codeless Plate Web Template",
+  "version": "0.3.14159265359",
+  "description": "An amazing boilerplate template project for all your MVC needs.",
+  "license" : "MIT",
+  "contributors": [{
+      "name": "Henrik Andersson",
+      "email": "henrik.andersson@tretton37.com"
+    }, {
+      "name": "Peter Palmér",
+      "email": "peter.palmer@tretton37.com"
+    }
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/kodkatten/CodelessPlate.git"
+  },
+  "homepage": "https://github.com/kodkatten/CodelessPlate",
+  "keywords": ["template", "MVC", "codeless", "codefull", "Awsome"],
+  "_knowabungaCategories": [
+    "web-application"
+  ],
+  "knowabungaCategory": "web-application"
+}
