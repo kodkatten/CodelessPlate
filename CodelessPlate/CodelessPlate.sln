@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodelessPlate.Tests", "CodelessPlate.Tests\CodelessPlate.Tests.csproj", "{A7D3DE24-AECF-4E7B-B392-3E2A30DC9B52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodelessPlate.IntegrationTests", "CodelessPlate.IntegrationTests\CodelessPlate.IntegrationTests.csproj", "{B18ED3C6-CEC7-4044-8600-87AC72608ED7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodelessPlate.Web", "CodelessPlate.Web\CodelessPlate.Web.csproj", "{96E0B3AD-B6F4-4929-B2C3-94CD23F66DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodelessPlate.Data", "CodelessPlate.Data\CodelessPlate.Data.csproj", "{DDEA2051-AECF-40C0-8F2E-6D12E9F448E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{96E0B3AD-B6F4-4929-B2C3-94CD23F66DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96E0B3AD-B6F4-4929-B2C3-94CD23F66DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96E0B3AD-B6F4-4929-B2C3-94CD23F66DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEA2051-AECF-40C0-8F2E-6D12E9F448E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEA2051-AECF-40C0-8F2E-6D12E9F448E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEA2051-AECF-40C0-8F2E-6D12E9F448E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEA2051-AECF-40C0-8F2E-6D12E9F448E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
