@@ -6,6 +6,13 @@ namespace CodelessPlate.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IRavenInstance _raven;
+
+        public HomeController(IRavenInstance raven)
+        {
+            _raven = raven;
+        }
+
         // GET: Home
         public ActionResult Index()
         {
@@ -14,9 +21,8 @@ namespace CodelessPlate.Controllers
                 Description = "This string is stored in RavenDB"
             };
 
-            var modelId = RavenInstance.Current.Store(model);
-
-            var modelFromDb = RavenInstance.Current.Load<DummyModel>(modelId);
+            var modelId = _raven.Store(model);
+            var modelFromDb = _raven.Load<DummyModel>(modelId);
 
             return View(modelFromDb);
         }
