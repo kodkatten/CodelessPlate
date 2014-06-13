@@ -5,7 +5,7 @@ using Raven.Client.Indexes;
 
 namespace CodelessPlate.Data
 {
-    public class RavenInstance
+    public class RavenInstance : IRavenInstance
     {
         private static RavenInstance _singleInstance;
 
