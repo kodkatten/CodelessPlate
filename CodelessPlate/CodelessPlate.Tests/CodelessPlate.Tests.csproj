@@ -98,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\RavenTest.cs" />
-    <Compile Include="DummyTest.cs" />
+    <Compile Include="Web\DummyTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

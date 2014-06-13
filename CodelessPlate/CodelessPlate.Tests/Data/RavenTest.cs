@@ -1,6 +1,5 @@
 ﻿using CodelessPlate.Data;
 using NUnit.Framework;
-using Raven.Client;
 
 namespace CodelessPlate.Tests.Data
 {
