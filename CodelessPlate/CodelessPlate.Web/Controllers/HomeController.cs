@@ -1,4 +1,6 @@
 ﻿using System.Web.Mvc;
+using CodelessPlate.Data;
+using CodelessPlate.Models;
 
 namespace CodelessPlate.Controllers
 {
@@ -7,7 +9,16 @@ namespace CodelessPlate.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+            var model = new DummyModel()
+            {
+                Description = "This string is stored in RavenDB"
+            };
+
+            var modelId = RavenInstance.Current.Store(model);
+
+            var modelFromDb = RavenInstance.Current.Load<DummyModel>(modelId);
+
+            return View(modelFromDb);
         }
     }
 }
