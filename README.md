@@ -8,9 +8,13 @@ just clone the repository and you will have everything you need for an hipster M
 ## Include frameworks in the solution
 
 [RavenDB](http://ravendb.net/)
+
 [Nunit](http://www.nunit.org/)
+
 [Nsubstitute](http://nsubstitute.github.io/)
+
 [TypeScript](http://www.typescriptlang.org/)
+
 [LightInject](http://www.lightinject.net/) 
 
 ## Not included framework in the solution
